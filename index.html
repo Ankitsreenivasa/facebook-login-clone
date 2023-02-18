@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Facebook - login or sign up</title>
+    <link rel="icon" type="image/x-icon" href="favicon-fb.png" />
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mt-32 flex mx-auto items-center justify-center">
+      <div class="left pl-24">
+        <img src="fb-logo.svg" class="w-80" alt="fb-logo" />
+        <p class="text-3xl mx-8 w-auto">
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </div>
+      <div
+        class="right flex flex-col rounded-lg bg-white shadow-xl p-4 text-lg w-2/5 mr-24 relative">
+        <input
+          type="text"
+          placeholder="Email address or Phone number"
+          class="bg-white border border-1 border-gray-200 rounded-lg h-12 px-4 my-1 outline-blue-600"
+          id="" />
+        <input
+          type="password"
+          placeholder="Password"
+          class="bg-white border border-1 border-gray-200 rounded-lg h-12 px-4 my-2 outline-blue-600" />
+        <button
+          class="btn bg-blue-500 text-white rounded-lg text-xl py-3 my-2 font-bold hover:bg-blue-700">
+          Log In
+        </button>
+        <span
+          class="text-center text-blue-600 font-semibold text-sm pb-2 hover:underline">
+          Forgotten password ?
+        </span>
+        <hr class="mx-3" />
+        <button
+          class="btn rounded-lg text-white text-lg py-3 my-5 px-4 mx-auto bg-green-600 hover:bg-green-700 w-fit"
+          id="new_acc">
+          Create new account
+        </button>
+        <br>
+        <span class="absolute -bottom-10">
+            <p class="text-sm">
+                <b class="hover:underline pl-6 cursor-pointer">Create a Page</b> for a celebrity, brand or business.
+            </p>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
